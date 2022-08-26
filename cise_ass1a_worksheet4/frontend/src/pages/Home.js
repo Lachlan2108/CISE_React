@@ -1,6 +1,6 @@
-import React from "react";
- 
-const Home = () =>  {
+import React, { Component } from "react";
+class Home extends Component {
+  render() {
     return (
       <div>
         <h2> How to use SEED</h2>
@@ -9,5 +9,5 @@ const Home = () =>  {
       </div>
     );
   }
- 
+}
 export default Home;
