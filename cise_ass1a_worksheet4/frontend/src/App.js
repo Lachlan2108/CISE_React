@@ -1,9 +1,12 @@
-import React from "react";
+import React, {Component} from 'react';
 import {
   Route,
   NavLink,
   BrowserRouter as Router,
+  BrowserRouter
 } from "react-router-dom";
+
+
 
 import Home from "./pages/Home";
 import SEPractice from "./pages/SE-Practice";
@@ -25,6 +28,8 @@ const App = () =>  {
             <Route  path="/SEPractice" component={SEPractice}/>
             <Route  path="/SubmitArticle" component={SubmitArticle}/>
             <Route exact path="cise_ass1a_worksheet4\frontend\src\pages\404.js" component={NotFoundPage}/>
+            <Route exact path="/404" component={NotFoundPage}/>
+            <BrowserRouter to="/404" />
             </div>
         </div>
         </Router>
