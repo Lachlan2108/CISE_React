@@ -1,0 +1,4 @@
+{
+    "mongoURI":
+      "mongodb+srv://lachlan:lachlan123@cluster0.wnehy2g.mongodb.net/?retryWrites=true&w=majority"
+  }

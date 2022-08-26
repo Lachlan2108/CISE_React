@@ -1,0 +1,26 @@
+{
+  "name": "cise_react",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000C\u0000I\u0000S\u0000E\u0000_\u0000R\u0000e\u0000a\u0000c\u0000t\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lachlan2108/CISE_React.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lachlan2108/CISE_React/issues"
+  },
+  "homepage": "https://github.com/Lachlan2108/CISE_React#readme",
+  "dependencies": {
+    "create-react-app": "^5.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "npx": "^10.2.2",
+    "sxpress": "^1.0.3"
+  }
+}
